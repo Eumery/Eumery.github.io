@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+
+    height: 100vh;
+
+}
+
+.nav {
+    position: top;
+    background-color: rgb(224, 224, 150);
+    text-align: right;
+    padding: 30px;
+
+}
+
+
+.nav a {
+  
+    text-decoration: none;
+    margin-left: 35px;
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+    transition: .3s;
+    background-color: beige;
+    padding: 10px;
+    border-radius: 5px;
+  
+}
+
+.nav a:hover {
+    color: #00abf0;
+}
+
+
+
+#titulo {
+    background-image: url(img/fondo-vectores.jpg);
+}
+
+#titulo h1 {
+    font-size: 3rem;
+}
+
+#titulo h2 {
+    font-size: 2rem;
+}
+
+b {
+    font-family: 'VT323', monospace;
+}
+
+h3 {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+#titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista-proyectos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.lista-proyectos, h3 {
+    background-color: rgb(224, 224, 150);
+}
+
+
+
+.proyecto {
+    border: 7px solid black;
+    width: 300px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 15px 10px #201F1F;
+}
+
+.proyecto img {
+    width: 100%;
+    height: 200px;
+}
+
+
+.titulo {
+    margin-top: 200px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.conocimientos {
+   
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.habilidad {
+    border: 7px solid black;
+    width: 200px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 15px 10px #201F1F;
+}
+
+.habilidad img {
+    width: 100%;
+    height: 200px;
+}
+
+
+.footer-contenedor { 
+    margin-top: 200px;
+    background-color: rgb(224, 224, 150);
+
+}
+
+.contenido {
+     display: flex;
+     justify-content: space-around;
+     padding-top: 30PX;
+     margin-left: 30px;
+
+}
+
+.iconos i {
+    font-size: 45px;
+    text-decoration: none;
+    color: black;
+    transition: .3s;
+}
+
+.iconos {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+
+.iconos p, i {
+    padding-right: 35px;
+}
+
+.iconos i:hover {
+    color: #00abf0;
+}
+
+.link {
+    font-size: 25px;
+    margin-left: 200px;
+    
+}
+
+
+.link a {
+    text-decoration: none;
+    color: black;
+    margin-left: 35px;
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+    transition: .3s;
+    background-color: beige;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.link a:hover {
+    color: #00abf0;
+}
+ 
+
+
+
+
+
